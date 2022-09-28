@@ -11,7 +11,7 @@ The interest rate set by a country's central bank is perhaps one of the most imp
 * People's Republic of China
 * Czech Republic
 * Denmark
-* Eurozone area (all countries in the economic region, e.g. France, Germany, Italy, and so on)
+* Eurozone area (all countries in the economic region, e.g. France, Germany, Italy, and so on) (various web extensions | various phone numbers)
 * Hungary
 * India
 * Israel
@@ -28,12 +28,14 @@ The interest rate set by a country's central bank is perhaps one of the most imp
 
 # Recommend platforms and requisite tools to run
 * Windows
-* xampp
+* xampp - This will be needed to run the script
 * 
 
 # Instructions
 You can use Composer to get the prerequisite tools needed to run the Courier API. This can be done as follows with:
+
 `composer require trycourier/courier guzzlehttp/guzzle `
+
 
 # Further Information
 
