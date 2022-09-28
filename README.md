@@ -18,7 +18,13 @@ The interest rate set by a country's central bank is perhaps one of the most imp
 * Japan
 * Mexico
 * New Zealand
-* 
+* Norway
+* Poland
+* Russian Federation
+* Saudi Arabia
+* South Africa
+* Switzerland
+* Thailand
 
 
 # Further Information
