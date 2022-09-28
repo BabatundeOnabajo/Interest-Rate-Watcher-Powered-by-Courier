@@ -24,7 +24,7 @@ The interest rate set by a country's central bank is perhaps one of the most imp
 * Saudi Arabia
 * South Africa
 * Switzerland
-* Thailand
+* Turkey
 
 
 # Further Information
