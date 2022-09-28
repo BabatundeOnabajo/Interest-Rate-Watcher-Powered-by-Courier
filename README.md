@@ -33,7 +33,7 @@ The interest rate set by a country's central bank is perhaps one of the most imp
 
 # Instructions
 You can use Composer to get the prerequisite tools needed to run the Courier API. This can be done as follows with:
-<p><center> ` composer require trycourier/courier guzzlehttp/guzzle ` </center>
+` composer require trycourier/courier guzzlehttp/guzzle `
 
 # Further Information
 
