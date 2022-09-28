@@ -28,10 +28,12 @@ The interest rate set by a country's central bank is perhaps one of the most imp
 
 # Recommend platforms and requisite tools to run
 * Windows
+* xampp
+* 
 
 # Instructions
 You can use Composer to get the prerequisite tools needed to run the Courier API. This can be done as follows with:
-` composer require trycourier/courier guzzlehttp/guzzle `
+<p><center> ` composer require trycourier/courier guzzlehttp/guzzle ` </center>
 
 # Further Information
 
