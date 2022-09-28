@@ -9,6 +9,16 @@ The interest rate set by a country's central bank is perhaps one of the most imp
 * Brazil
 * Canada
 * People's Republic of China
+* Czech Republic
+* Denmark
+* Eurozone area (all countries in the economic region, e.g. France, Germany, Italy, and so on)
+* Hungary
+* India
+* Israel
+* Japan
+* Mexico
+* New Zealand
+* 
 
 
 # Further Information
