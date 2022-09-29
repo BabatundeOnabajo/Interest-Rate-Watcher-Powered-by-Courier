@@ -21,10 +21,10 @@ The interest rate set by a country's central bank is perhaps one of the most imp
 * Norway (.no | +47 | Norges Bank)
 * Poland (.pl | +48 | National Bank of Poland)
 * Russian Federation (.ru | +7 | Central Bank of the Russian Federation)
-* Saudi Arabia 
-* South Africa
+* Saudi Arabia (.sa | +966 | Saudi Central Bank)
+* South Africa (.za | +27 | South African Reserve Bank)
 * Switzerland (.ch | +41 | Swiss National Bank)
-* Turkey
+* Turkey (.tr | +90 | Central Bank of Turkey)
 (where a country is not covered, the default is the Federal Reserve on the basis of the US Dollar being the world's reserve currency)
 
 # Recommend platforms and requisite tools to run
