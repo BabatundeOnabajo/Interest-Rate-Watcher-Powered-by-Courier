@@ -2,6 +2,7 @@
 
 # This file controls the actual sending of messages to end users about an interest rate change, with the help of Courier.
 
+
 $emailAddress = "INCLUDE_YOUR_EMAIL_ADDRESS_HERE"; #You should include your email address here. This email address will be used to notify you when the interest rate of the relevant central bank changes.
 
 # Our script considers the countries in the following order (note that the ordering of this list does not in any way imply a political opinion on the part of the author. This will be used later for the array in which information is stored
@@ -41,7 +42,12 @@ $emailAddress = "INCLUDE_YOUR_EMAIL_ADDRESS_HERE"; #You should include your emai
  * 16 - Denmark
  * 5 - Eurozone area - note that the website does not actually give a specific area called "Eurozone area" but instead lists the constituent countries. For the sake of this script we will use Belgium 
 * 23 - Hungary
- * India */
+ * 25 - India 
+* 28 - Israel
+ * 30 - Japan
+ * 39 - Mexico 
+* 43 - New Zealand */
+
 
 
 
@@ -58,5 +64,6 @@ $password = ""; #This is the default password in most cases (i.e. nothing). You 
 $conn = mysqli_connect($servername, $username, $password); #We use this line of code to connect to the database. Be sure that your login details are accurate otherwise an error could be thrown!
 
 #We perform an if(){} statement here just to make sure that the appropriate databases and tables are created.
+
 ?>
 
