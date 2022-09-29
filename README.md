@@ -4,13 +4,13 @@ The interest rate set by a country's central bank is perhaps one of the most imp
 # Countries covered and details in the format of web domain | international dialling code | central bank of country
 * United States of America (.com | +1 | Federal Reserve)
 * Great Britain (.co.uk | +44 | Bank of England)
-* Chile (.cl | +56 | )
+* Chile (.cl | +56 | Central Bank of Chile)
 * South Korea (.kr | + 82)
-* Brazil (.br | +55)
+* Brazil (.br | +55 | )
 * Canada (.ca | +1)
 * People's Republic of China (.cn | +86)
-* Czech Republic (.cz | +420 | 
-* Denmark
+* Czech Republic (.cz | +420 | Czech National Bank)
+* Denmark (
 * Eurozone area (all countries in the economic region, e.g. France, Germany, Italy, and so on) (various web extensions | various phone numbers | European Central Bank)
 * Hungary
 * India
@@ -23,7 +23,7 @@ The interest rate set by a country's central bank is perhaps one of the most imp
 * Russian Federation
 * Saudi Arabia
 * South Africa
-* Switzerland
+* Switzerland (.ch | +41 | Swiss National Bank)
 * Turkey
 (where a country is not covered, the default is the Federal Reserve on the basis of the US Dollar being the world's reserve currency)
 
