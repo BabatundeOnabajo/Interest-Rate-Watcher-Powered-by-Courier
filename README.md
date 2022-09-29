@@ -31,6 +31,9 @@ The interest rate set by a country's central bank is perhaps one of the most imp
 * xampp - This will be needed to run the script
 * 
 
+# Description of included files
+
+
 # Instructions
 You can use Composer to get the prerequisite tools needed to run the Courier API. This can be done as follows with:
 
