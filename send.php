@@ -27,5 +27,10 @@
  * 21 - Switzerland
  * 22 - Turkey */
 
+/* The data relating to interest rates set by the central bank is obtained from http://www.worldgovernmentbonds.com/central-bank-rates/ . It is consistent, regular and well-formed. This is beneficial to us as programmers as it means we can easily scrape it. To arrange our  */
 
+
+/* We use the following section to create the database and table necessary for us to 
+
+ *  */
 ?>
