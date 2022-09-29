@@ -34,6 +34,7 @@ The interest rate set by a country's central bank is perhaps one of the most imp
 
 # Description of included files
 * interest_rate_watcher.sql - This is the SQL database that contains both a list of the central banks covered by this code as well as a log of the interest rate set by the given central bank in question. 
+* send.php - This is the file that actually sends the messages, through Courier's API. Please note, you must have already incorporated the files from Courier to correctly use send.php . 
 
 # Instructions
 You can use Composer to get the prerequisite tools needed to run the Courier API. This can be done as follows with:
