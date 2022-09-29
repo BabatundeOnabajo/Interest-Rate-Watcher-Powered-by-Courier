@@ -12,9 +12,9 @@ The interest rate set by a country's central bank is perhaps one of the most imp
 * Czech Republic (.cz | +420 | Czech National Bank)
 * Denmark (.dk | +45 | Danmarks Nationalbank)
 * Eurozone area (all countries in the economic region, e.g. France, Germany, Italy, and so on) (various web extensions | various phone numbers | European Central Bank)
-* Hungary 
-* India
-* Israel
+* Hungary (.hu | +36 | Hungarian National Bank)
+* India (.in | +91 | Central Bank of India)
+* Israel (
 * Japan
 * Mexico
 * New Zealand
