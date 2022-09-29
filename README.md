@@ -4,7 +4,7 @@ The interest rate set by a country's central bank is perhaps one of the most imp
 # Countries covered and details in the format of web domain | international dialling code | central bank of country
 * United States of America (.com | +1 | Federal Reserve)
 * Great Britain (.co.uk | +44 | Bank of England)
-* Chile (.cl | +56)
+* Chile (.cl | +56 | )
 * South Korea (.kr | + 82)
 * Brazil (.br | +55)
 * Canada (.ca | +1)
@@ -28,7 +28,7 @@ The interest rate set by a country's central bank is perhaps one of the most imp
 (where a country is not covered, the default is the Federal Reserve on the basis of the US Dollar being the world's reserve currency)
 
 # Recommend platforms and requisite tools to run
-* Windows
+* Windows, Mac or Linux
 * xampp - This will be needed to run the script
 * 
 
@@ -42,6 +42,7 @@ You can use Composer to get the prerequisite tools needed to run the Courier API
 
 
 # Further Information
+Further information on how to use this script can be found from the YouTube playlist here: https://youtube.com/playlist?list=PLlWpwpaAZuRCR1I27-3Dzddpml0t3AzpO
 
 # Legal
 
