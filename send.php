@@ -39,10 +39,13 @@ $emailAddress = "INCLUDE_YOUR_EMAIL_ADDRESS_HERE"; #You should include your emai
  * 11 - People's Republic of China
  * 15 - Czech Republic
  * 16 - Denmark
- * Eurozone area - note that the website does not actually give a specific area called "Eurozone area" but instead lists the constituent countries. For the sake of this script we will use Belgium */
+ * 5 - Eurozone area - note that the website does not actually give a specific area called "Eurozone area" but instead lists the constituent countries. For the sake of this script we will use Belgium 
+* 23 - Hungary
+ * India */
 
 
-/* We use the following section to create the database and table necessary for us to log interest rate changes by a central bank * /
+
+/* We use the following section to create the database and table necessary for us to log interest rate changes by a central bank. * /
 
  /*  */
 
@@ -55,6 +58,5 @@ $password = ""; #This is the default password in most cases (i.e. nothing). You 
 $conn = mysqli_connect($servername, $username, $password); #We use this line of code to connect to the database. Be sure that your login details are accurate otherwise an error could be thrown!
 
 #We perform an if(){} statement here just to make sure that the appropriate databases and tables are created.
-
-
 ?>
+
