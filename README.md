@@ -18,10 +18,10 @@ The interest rate set by a country's central bank is perhaps one of the most imp
 * Japan (.jp | +81 | Bank of Japan)
 * Mexico (.mx | +52 | Bank of Mexico)
 * New Zealand (.nz | +64 | Reserve Bank)
-* Norway (
-* Poland
-* Russian Federation
-* Saudi Arabia
+* Norway (.no | +47 | Norges Bank)
+* Poland (.pl | +48 | National Bank of Poland)
+* Russian Federation (.ru | +7 | Central Bank of the Russian Federation)
+* Saudi Arabia 
 * South Africa
 * Switzerland (.ch | +41 | Swiss National Bank)
 * Turkey
