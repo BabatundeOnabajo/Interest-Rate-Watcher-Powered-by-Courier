@@ -6,9 +6,9 @@ The interest rate set by a country's central bank is perhaps one of the most imp
 * Great Britain (.co.uk | +44)
 * Chile (.cl | +56)
 * South Korea (.kr | + 82)
-* Brazil (.br | 
-* Canada
-* People's Republic of China
+* Brazil (.br | +55)
+* Canada (.ca | +1)
+* People's Republic of China (
 * Czech Republic
 * Denmark
 * Eurozone area (all countries in the economic region, e.g. France, Germany, Italy, and so on) (various web extensions | various phone numbers)
