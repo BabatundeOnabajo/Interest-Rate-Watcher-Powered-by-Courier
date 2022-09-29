@@ -69,7 +69,7 @@ $password = ""; #This is the default password in most cases (i.e. nothing). You 
 $conn = mysqli_connect($servername, $username, $password); #We use this line of code to connect to the database. Be sure that your login details are accurate otherwise an error could be thrown!
 
 
-# We use the following section to create the database and table necessary for us to log interest rate changes by a central bank. The name of the database is interest_rate_watcher . It should be noted that if you are using the popular software phpMyAdmin, you can simply use the import function for the file interest_rate_watcher.sql .
+# We use the following section to create the database and table necessary for us to log interest rate changes by a central bank. The name of the database is interest_rate_watcher . It should be noted that if you are using the popular software phpMyAdmin, you can simply use the import function for the file interest_rate_watcher.sql which will import and do other things.
 
 $stmt = $conn->prepare("SELECT SCHEMA_NAME FROM INFORMATION_SCHEMA.SCHEMATA WHERE SCHEMA_NAME = 'interest_rate_watcher"); #This line checks to see if a database known as interest_rate_watcher exists.
 
@@ -82,20 +82,29 @@ if($stmt_result->num_rows <= 0){ #If the number of rows retrieved is less than o
 $queryToCreateDatabase = "CREATE DATABASE interest_rate_watcher";    
 
 mysqli_query($conn, $queryToCreateDatabase);
-    
-    
+
+  
 }
 
-$resultOfAttemptToCheckIfDatabaseExists = mysqli_conn($conn, $queryToCheckIfDatabaseExists); #This line connects to the database with this query.
+### This is the part where we begin scraping the website.
 
-while($row = mysqli_fetch_array($resultOfAttemptToCheckIfDatabaseExists, MYSQLI_ASSOC)){ #This is a common design pattern in PHP/MySQL to retrieve a set of results from the database.
-    
-    
+$urlToScrape = "http://www.worldgovernmentbonds.com/central-bank-rates/"; #This website lists the various interest rates set by central banks around the world.
+
+$outputOfURLScrape = strip_tags(file_get_contents($urlToScrape, "r"), "<html><script><b>"); #This is the output of the URL that has been scraped.
+
+$arrayOfInterestRates = array(); #We create an array of interest rates. Unlike with other languages, in PHP, we can be assured of their order (unlike, say, the HashMap in Java).
+
+if(preg_match_all('/(\d+|\d+[.,]\d{1,4})(?=\s*%)/', $outputOfURLScrape, $matches)){ #Here we use a regular expression to extract the various percentages of the interest rates set by the central bank. 
+  foreach($matches as $match){
+      
+      $arrayOfInterestRates = array(); #We use a foreach(){} loop to iterate over the range of interest rates extracted from the website. In PHP, we can be reasonably sure that the order will remain the same so we do not need to be worried about the order changing. We will use this array to then send the appropriate email.
+  }
     
 }
-        
-
+       
 #We perform an if(){} statement here just to make sure that the appropriate databases and tables are created.
+
+
 
 ?>
 
