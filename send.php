@@ -34,7 +34,9 @@
 * 59 - South Korea
  * 7 - Brazil 
 * 9 - Canada
- * 11 - People's Republic of China */
+ * 11 - People's Republic of China
+ * 15 - Czech Republic
+ *  */
 
 
 /* We use the following section to create the database and table necessary for us to log interest rate changes by a central bank * /
@@ -48,4 +50,6 @@ $username = "root"; #This is the default username in most cases. You may need to
 $password = ""; #This is the default password in most cases (i.e. nothing). You may need to change it if your authentication details differ.
 
 $conn = mysqli_connect($servername, $username, $password); #We use this line of code to connect to the database. Be sure that your login details are accurate otherwise an error could be thrown!
+
+#We perform an if(){} statement here just to make sure that the appropriate databases and tables are created.
 ?>
