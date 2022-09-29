@@ -27,10 +27,14 @@
  * 21 - Switzerland
  * 22 - Turkey */
 
-/* The data relating to interest rates set by the central bank is obtained from http://www.worldgovernmentbonds.com/central-bank-rates/ . It is consistent, regular and well-formed. This is beneficial to us as programmers as it means we can easily scrape it. To arrange our  */
+/* The data relating to interest rates set by the central bank is obtained from http://www.worldgovernmentbonds.com/central-bank-rates/ . It is consistent, regular and well-formed. The only criticism against it is that it lists individual European countries (e.g. France, Germany, Belgium, etc) when it is more accurate to simply use "Eurozone area". This is beneficial to us as programmers as it means we can easily scrape it. To arrange the data to match the ordering of above, we need to consider how the aforementioned website lists the countries. Note that unlike the ordering above, this ordering begins with 0, as this is what we will be using to access our array.
+ * 70 - United States of America
+ *  */
 
 
 /* We use the following section to create the database and table necessary for us to 
+
+ *  */
 
  *  */
 ?>
