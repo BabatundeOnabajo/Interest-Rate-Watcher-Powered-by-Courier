@@ -33,7 +33,7 @@ The interest rate set by a country's central bank is perhaps one of the most imp
 * 
 
 # Description of included files
-
+* interest_rate_watcher.sql - This is the SQL database that contains both a list of the central banks covered by this code as well as a log of the interest rate set by the given central bank in question. 
 
 # Instructions
 You can use Composer to get the prerequisite tools needed to run the Courier API. This can be done as follows with:
