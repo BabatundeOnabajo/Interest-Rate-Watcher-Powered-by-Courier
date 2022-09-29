@@ -14,8 +14,8 @@ The interest rate set by a country's central bank is perhaps one of the most imp
 * Eurozone area (all countries in the economic region, e.g. France, Germany, Italy, and so on) (various web extensions | various phone numbers | European Central Bank)
 * Hungary (.hu | +36 | Hungarian National Bank)
 * India (.in | +91 | Central Bank of India)
-* Israel (
-* Japan
+* Israel (.il | +972 | Bank of Israel)
+* Japan (.jp | +81 | Bank of Japan)
 * Mexico
 * New Zealand
 * Norway
