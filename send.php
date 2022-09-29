@@ -71,7 +71,20 @@ $conn = mysqli_connect($servername, $username, $password); #We use this line of 
 
 # We use the following section to create the database and table necessary for us to log interest rate changes by a central bank. The name of the database is interest_rate_watcher . It should be noted that if you are using the popular software phpMyAdmin, you can simply use the import function for the file interest_rate_watcher.sql .
 
-$queryToCheckIfDatabaseExists = "SELECT SCHEMA_NAME FROM INFORMATION_SCHEMA.SCHEMATA WHERE SCHEMA_NAME = 'interest_rate_watcher'"; #This line checks to see if a database known as interest_rate_watcher exists.
+$stmt = $conn->prepare("SELECT SCHEMA_NAME FROM INFORMATION_SCHEMA.SCHEMATA WHERE SCHEMA_NAME = 'interest_rate_watcher"); #This line checks to see if a database known as interest_rate_watcher exists.
+
+$stmt->execute(); #Unlike with other prepared statements, we don't need to use the bind_param argument
+
+$stmt_result = $stmt->get_result(); #This is the first step in helping us get the number of rows.
+
+if($stmt_result->num_rows <= 0){ #If the number of rows retrieved is less than or equal to 0, we create the database
+    
+$queryToCreateDatabase = "CREATE DATABASE interest_rate_watcher";    
+
+mysqli_query($conn, $queryToCreateDatabase);
+    
+    
+}
 
 $resultOfAttemptToCheckIfDatabaseExists = mysqli_conn($conn, $queryToCheckIfDatabaseExists); #This line connects to the database with this query.
 
@@ -83,7 +96,6 @@ while($row = mysqli_fetch_array($resultOfAttemptToCheckIfDatabaseExists, MYSQLI_
         
 
 #We perform an if(){} statement here just to make sure that the appropriate databases and tables are created.
-
 
 ?>
 
