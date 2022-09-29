@@ -49,3 +49,5 @@ Further information on how to use this script can be found from the YouTube play
 
 
 # Credits
+* Courier
+* World Government Bonds: http://www.worldgovernmentbonds.com/central-bank-rates/
