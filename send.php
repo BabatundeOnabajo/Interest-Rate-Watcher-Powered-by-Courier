@@ -2,8 +2,9 @@
 
 # This file controls the actual sending of messages to end users about an interest rate change, with the help of Courier.
 
-
 $emailAddress = "INCLUDE_YOUR_EMAIL_ADDRESS_HERE"; #You should include your email address here. This email address will be used to notify you when the interest rate of the relevant central bank changes.
+
+# $emailAddress = $_POST['INCLUDE_NAME_OF_VARIABLE_FOR_EMAIL_ADDRESS_HERE']; #This line of code has been commented out. This can be uncommented out if you are intending to use this on a website of your own where users can enter their email address. This will likely be of interest to financial institutions, statistical authorities, and so on. 
 
 # Our script considers the countries in the following order (note that the ordering of this list does not in any way imply a political opinion on the part of the author. This will be used later for the array in which information is stored
 
@@ -46,12 +47,16 @@ $emailAddress = "INCLUDE_YOUR_EMAIL_ADDRESS_HERE"; #You should include your emai
 * 28 - Israel
  * 30 - Japan
  * 39 - Mexico 
-* 43 - New Zealand */
+* 43 - New Zealand 
+* 45 - Norway
+ * 47 - Poland
+ * 53 - Russian Federation 
+*  N/A - Saudi Arabia (Saudi Arabia is missing because http://www.worldgovernmentbonds.com/central-bank-rates/ does not track it)
+ * 63 - Switzerland
+ * 66 - Turkey 
+ *  */
 
 
-
-
-/* We use the following section to create the database and table necessary for us to log interest rate changes by a central bank. * /
 
  /*  */
 
@@ -63,7 +68,22 @@ $password = ""; #This is the default password in most cases (i.e. nothing). You 
 
 $conn = mysqli_connect($servername, $username, $password); #We use this line of code to connect to the database. Be sure that your login details are accurate otherwise an error could be thrown!
 
+
+# We use the following section to create the database and table necessary for us to log interest rate changes by a central bank. The name of the database is interest_rate_watcher . It should be noted that if you are using the popular software phpMyAdmin, you can simply use the import function for the file interest_rate_watcher.sql .
+
+$queryToCheckIfDatabaseExists = "SELECT SCHEMA_NAME FROM INFORMATION_SCHEMA.SCHEMATA WHERE SCHEMA_NAME = 'interest_rate_watcher'"; #This line checks to see if a database known as interest_rate_watcher exists.
+
+$resultOfAttemptToCheckIfDatabaseExists = mysqli_conn($conn, $queryToCheckIfDatabaseExists); #This line connects to the database with this query.
+
+while($row = mysqli_fetch_array($resultOfAttemptToCheckIfDatabaseExists, MYSQLI_ASSOC)){ #This is a common design pattern in PHP/MySQL to retrieve a set of results from the database.
+    
+    
+    
+}
+        
+
 #We perform an if(){} statement here just to make sure that the appropriate databases and tables are created.
+
 
 ?>
 
