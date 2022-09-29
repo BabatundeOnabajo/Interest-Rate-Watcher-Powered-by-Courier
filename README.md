@@ -2,14 +2,14 @@
 The interest rate set by a country's central bank is perhaps one of the most important economic policies in a country. It influences the interest rates charged on credit cards, mortgages, car loans, overdraft charges and much more. The interest rate forms one part of what is known as "monetary policy", which refers to the set of policies that a central bank uses to influence an economy. Despite the importance of the interest rate set by a central bank, only a minority of people would be able to state what the current interest rate set by their country's central bank is. 
 
 # Countries covered
-* United States of America (.com | +1)
+* United States of America (.com | +1 | Federal Reserve)
 * Great Britain (.co.uk | +44)
 * Chile (.cl | +56)
 * South Korea (.kr | + 82)
 * Brazil (.br | +55)
 * Canada (.ca | +1)
-* People's Republic of China (.cn | 
-* Czech Republic
+* People's Republic of China (.cn | +86)
+* Czech Republic (.cz | 
 * Denmark
 * Eurozone area (all countries in the economic region, e.g. France, Germany, Italy, and so on) (various web extensions | various phone numbers)
 * Hungary
@@ -25,6 +25,7 @@ The interest rate set by a country's central bank is perhaps one of the most imp
 * South Africa
 * Switzerland
 * Turkey
+(where a country is not covered, the default is the Federal Reserve on the basis of the US Dollar being the world's reserve currency)
 
 # Recommend platforms and requisite tools to run
 * Windows
