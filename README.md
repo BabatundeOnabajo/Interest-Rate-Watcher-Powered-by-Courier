@@ -16,9 +16,9 @@ The interest rate set by a country's central bank is perhaps one of the most imp
 * India (.in | +91 | Central Bank of India)
 * Israel (.il | +972 | Bank of Israel)
 * Japan (.jp | +81 | Bank of Japan)
-* Mexico
-* New Zealand
-* Norway
+* Mexico (.mx | +52 | Bank of Mexico)
+* New Zealand (.nz | +64 | Reserve Bank)
+* Norway (
 * Poland
 * Russian Federation
 * Saudi Arabia
