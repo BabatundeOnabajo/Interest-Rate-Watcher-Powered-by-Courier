@@ -45,7 +45,7 @@ You can use Composer to get the prerequisite tools needed to run the Courier API
 # Further Information
 Further information on how to use this script can be found from the YouTube playlist here: https://youtube.com/playlist?list=PLlWpwpaAZuRCR1I27-3Dzddpml0t3AzpO
 
-# Legal
+# Disclaimer
 
 
 # Credits
