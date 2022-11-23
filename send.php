@@ -131,7 +131,7 @@ $resultOfQueryToInsertNewInterestRateOfUSA = mysqli_query($conn, $queryToInsertN
 # This is where we send the mail to the user. We make the assumption, admittedly bold, that if the user is using a ".com" email address then they live in the US. 
 
 $response = $client->request('POST', 'https://api.courier.com/send', [
-  'body' => '{"message":{"content":{"title":"Interest Rates have risen - Federal Reserve","body":"Dear {INSERT_NAME_HERE}, interest rates by the Federal Reserve have now risen. This will likely increase the cost of borrowing for you."},"to":{"email":"' . $emailAddress . '","user_id":"Interest rates - Sep 2022","phone_number":"+447429601103"}}}',
+  'body' => '{"message":{"content":{"title":"Interest Rates have risen - Federal Reserve","body":"Dear {INSERT_NAME_HERE}, interest rates by the Federal Reserve have now risen. This will likely increase the cost of borrowing for you."},"to":{"email":"' . $emailAddress . '","user_id":"Interest rates - Sep 2022","phone_number":"INSERT PHONE NUMBER HERE"}}}',
   'headers' => [
     'Accept' => 'application/json',
     'Authorization' => 'Bearer [INSERT_YOUR_AUTHORISATION_HERE]',
