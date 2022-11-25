@@ -28,9 +28,14 @@ The interest rate set by a country's central bank is perhaps one of the most imp
 (where a country is not covered, the default is the Federal Reserve on the basis of the US Dollar being the world's reserve currency)
 
 # Recommend platforms and requisite tools to run
-* Windows, Mac or Linux
-* xampp - This will be needed to run the script
-* 
+- For Windows:
+* Windows Task Scheduler
+* A server-based program such as XAMPP
+* Internet access
+
+- For Linux and UNIX-based systems:
+* Internet access
+* Permission(s) to run cron jobs
 
 # Description of included files
 * interest_rate_watcher.sql - This is the SQL database that contains both a list of the central banks covered by this code as well as a log of the interest rate set by the given central bank in question. 
