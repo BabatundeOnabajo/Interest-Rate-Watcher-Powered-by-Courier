@@ -28,12 +28,12 @@ The interest rate set by a country's central bank is perhaps one of the most imp
 (where a country is not covered, the default is the Federal Reserve on the basis of the US Dollar being the world's reserve currency)
 
 # Recommend platforms and requisite tools to run
-** For Windows:
+### For Windows:
 1. Windows Task Scheduler
 2. A server-based program such as XAMPP
 3. Internet access
 
-** For Linux and UNIX-based systems:
+### For Linux and UNIX-based systems:
 1. Internet access
 2. Permission(s) to run cron jobs
 
