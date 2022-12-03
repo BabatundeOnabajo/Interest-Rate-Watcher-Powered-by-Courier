@@ -51,8 +51,9 @@ You can use Composer to get the prerequisite tools needed to run the Courier API
 Further information on how to use this script can be found from the YouTube playlist here: https://youtube.com/playlist?list=PLlWpwpaAZuRCR1I27-3Dzddpml0t3AzpO
 
 # Disclaimer
-
+This repository does not necessarily reflect the views of any past, present or future employer of Babatunde Onabajo. Babatunde Onabajo does not own any intellectual property stated in this repository unless otherwise explicitly stated; the intellectual property of organisations mentioned here are those of its respective owners. 
 
 # Credits
+* Babatunde Onabajo (ChurchMapped Limited)
 * Courier
 * World Government Bonds: http://www.worldgovernmentbonds.com/central-bank-rates/
